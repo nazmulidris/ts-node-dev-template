@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run all tests" type="JavaScriptTestRunnerJest">
+    <node-interpreter value="$PROJECT_DIR$/node_modules/.bin/ts-node-dev" />
+    <node-options value="" />
+    <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+    <working-dir value="$PROJECT_DIR$" />
+    <jest-options value="--config jestconfig.json" />
+    <envs />
+    <scope-kind value="ALL" />
+    <method v="2" />
+  </configuration>
+</component>
