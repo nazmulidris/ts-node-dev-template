@@ -6,6 +6,7 @@
 - [What is this?](#what-is-this)
   - [npm scripts](#npm-scripts)
   - [IDEA Run Configurations](#idea-run-configurations)
+- [How to update the template](#how-to-update-the-template)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -33,3 +34,14 @@ You can also use IDEA Run Configurations that are included.
    the `jestconfig.json` file (just like the npm script).
 2. `main.ts` - This uses `$PROJECT_DIR$/node_modules/.bin/ts-node-dev` to run the file.
 3. There are 3 npm scripts which just run the scripts above.
+
+## How to update the template
+
+You can get more info on this topic [here](https://stackoverflow.com/a/56577320/2085356). Here are
+the steps to create a remote called `template` that we will pull the changes from and then merge
+those changes into `main`.
+
+```shell
+git remote add template https://github.com/nazmulidris/ts-node-dev-template
+git pull template main
+```
