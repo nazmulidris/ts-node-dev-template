@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Run all tests (watch)" type="JavaScriptTestRunnerJest">
-    <node-interpreter value="$PROJECT_DIR$/node_modules/.bin/ts-node-dev" />
+    <node-interpreter value="/usr/local/bin/node" />
     <node-options value="" />
     <jest-package value="$PROJECT_DIR$/node_modules/jest" />
     <working-dir value="$PROJECT_DIR$" />

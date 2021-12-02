@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="main.ts" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/node_modules/.bin/ts-node-dev" path-to-js-file="main.ts" working-dir="$PROJECT_DIR$/src">
+  <configuration default="false" name="main.ts" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../linuxbrew/.linuxbrew/bin/node" node-parameters="-r tsm" path-to-js-file="src/main.ts" working-dir="$PROJECT_DIR$">
     <method v="2" />
   </configuration>
 </component>

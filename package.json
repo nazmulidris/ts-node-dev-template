@@ -2,11 +2,9 @@
   "name": "your-project-based-on-ts-node-dev-template",
   "version": "1.0.0",
   "scripts": {
-    "build": "rm -rf dist/ && tsc",
-    "build-watch": "rm -rf dist/ && tsc --watch",
     "test": "jest",
     "test-watch": "jest --watch",
-    "start": "ts-node-dev src/main.ts",
+    "start": "node -r tsm src/main.ts",
     "lint": "eslint '**/src/**/*.{ts,tsx}' --quiet --fix"
   },
   "keywords": [],
@@ -17,15 +15,15 @@
     "@types/lodash": "^4.14.168",
     "@types/node": "^15.12.2",
     "@types/node-fetch": "^2.5.10",
-    "jest": "^26.6.3",
-    "ts-jest": "^26.5.6",
-    "ts-node-dev": "^1.1.8",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
     "eslint": "latest",
     "eslint-loader": "latest",
-    "@typescript-eslint/parser": "latest",
-    "@typescript-eslint/eslint-plugin": "latest",
     "eslint-plugin-react": "latest",
-    "eslint-plugin-react-hooks": "latest"
+    "eslint-plugin-react-hooks": "latest",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "tsm": "^2.2.1"
   },
   "dependencies": {
     "@moebius/http-graceful-shutdown": "^1.1.0",
