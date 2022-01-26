@@ -1,13 +1,4 @@
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-
-- [Using a GitHub template repo](#using-a-github-template-repo)
-  - [What does template give you?](#what-does-template-give-you)
-  - [npm scripts](#npm-scripts)
-  - [IDEA Run Configurations](#idea-run-configurations)
-  - [How to update the template](#how-to-update-the-template)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DOCTOC SKIP -->
 
 # Using a GitHub template repo
 
@@ -45,13 +36,14 @@ You can also use IDEA Run Configurations that are included.
 6. Run the `main.ts` file (`start`).
 7. Run the linter (`lint`).
 
-## How to update the template
+## How do I get changes made to this template in the future?
 
-You can get more info on this topic [here](https://stackoverflow.com/a/56577320/2085356). Here are
-the steps to create a remote called `template` that we will pull the changes from and then merge
-those changes into `main`.
+Here are the steps to create a remote called `template`. When there are changes to this repo, you
+can pull the changes from and then merge those changes into `main`.
 
 ```shell
 git remote add template https://github.com/nazmulidris/ts-node-dev-template
 git pull template main
 ```
+
+> 💡 You can get more info on this topic [here](https://stackoverflow.com/a/56577320/2085356).
